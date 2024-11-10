@@ -1,0 +1,27 @@
+Respuestas de análisis
+
+a) Se están definiendo 3 clases: Lotería, Apostador y ComisionJuegoEspectaculos.
+
+b) Sirve para que se ejecute el código solo desde el mismo módulo o script y no desde otro móduclo a partir de una importación.
+
+c) Si se quita la línea, sigue corriendo el programa de la misma forma, ya que en main solo se importa Apostador, y además Apostador no tiene prints o variables sueltas que influyan en el código principal.
+
+d) Se están creando 2 objetops de la clase Apostador.
+
+e) Los dos objetos tienen por nombre: apostador1 y apostador2.
+
+f) A sí mismo, al objeto apostador de forma independiente.
+
+g) Se crean 1 objeto de la clase Lotería, dentro del método play de la clase apostador, y como se crean 2 objetos de este, y en ambos se usa tal método, se crean 2 objetos lotería.
+
+h) Además de la cantidad depositada y la resultante, aparece el mensaje: "Necesitas poner mas dinero en tu wallet", ya que el depósito es menor que el valor de la apuesta dada por el método play.
+
+i) En este caso, al ser la misma cifra de apuesta que de depósito, puede perderlo todo y arrojar 0, o ganar y tener una ganancia.
+
+j) Los atributos self.apostador y commi hacen referencia a los objetos apostador y ComisionJuegoEspectaculos respectivamente.
+
+k) value, gain, a y total son del tipo primitivo.
+
+l)  @classmethod 
+    def changeProbability(self , nprobability):
+        self.probability = nprobability 

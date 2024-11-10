@@ -22,4 +22,8 @@ class Loteria:
             self.payMoney(gain)
         else:
             print("Has perdido lo que apostaste")
-            self.recieveMoney()
+            self.recieveMoney() 
+
+    @classmethod 
+    def changeProbability(self , nprobability):
+        self.probability = nprobability

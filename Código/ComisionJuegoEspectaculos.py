@@ -11,4 +11,4 @@ class ComisionJuegoEspectaculos:
     @staticmethod
     def gain(loteriaValue, percentage):
         gain = loteriaValue-(loteriaValue*percentage)
-        return gain
+        return gain 
