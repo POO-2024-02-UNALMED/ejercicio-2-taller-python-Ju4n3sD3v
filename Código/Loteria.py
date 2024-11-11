@@ -25,5 +25,5 @@ class Loteria:
             self.recieveMoney() 
 
     @classmethod 
-    def changeProbability(self , nprobability):
-        self.probability = nprobability
+    def changeProbability(cls , nprobability):
+        Loteria.probability = nprobability

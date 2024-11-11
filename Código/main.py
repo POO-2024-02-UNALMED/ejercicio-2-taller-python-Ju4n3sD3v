@@ -1,6 +1,7 @@
 from Apostador import Apostador
+from Loteria import Loteria
 if __name__ == "__main__":
-    
+    Loteria.changeProbability(1)
     apostador1 = Apostador(1, "Juan", 302, "j@gmail.com")
     apostador1.deposit(300)
     print(apostador1.wallet)
